@@ -1,0 +1,87 @@
+/* Write your CSS here */
+.similar-item-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 400px;
+  min-width: 340px;
+  margin: 10px;
+  padding: 10px;
+}
+.similar-image {
+  height: 260px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+.similar-item-name {
+  font-family: roboto;
+  font-weight: 500;
+  font-size: 20px;
+  color: #12022f;
+}
+.by {
+  font-family: roboto;
+  color: #475569;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.price-and-rating-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.rupees {
+  font-family: roboto;
+  color: #12022f;
+  font-weight: 600;
+  font-size: 20px;
+}
+.rating {
+  font-size: 20px;
+}
+
+.rating-container {
+  height: 30px;
+  width: 80px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.star-img {
+  height: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .similar-item-container {
+    min-height: 300px;
+    min-width: 200px;
+  }
+  .similar-image {
+    height: 150px;
+  }
+  .similar-item-name {
+    font-size: 16px;
+  }
+  .by {
+    font-size: 14px;
+  }
+  .rupees {
+    font-size: 16px;
+  }
+
+  .rating-container {
+    height: 26px;
+    width: 70px;
+  }
+  .rating {
+    font-size: 14px;
+  }
+
+  .star-img {
+    height: 16px;
+  }
+}

@@ -1,0 +1,249 @@
+/* Write your CSS here */
+
+.product-item-details-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 48px;
+}
+.product-details-success-view {
+  width: 80%;
+}
+.product-details-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.image {
+  min-height: 540px;
+  max-width: 400px;
+  border-radius: 10px;
+}
+
+.product-title {
+  font-family: roboto;
+  font-weight: bold;
+  color: #616e7c;
+  font-size: 40px;
+}
+
+.product-details {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 60%;
+}
+
+.price {
+  font-family: roboto;
+  font-weight: bold;
+  color: #12022f;
+  margin-bottom: 24px;
+}
+
+.rating-and-reviews-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.rating-container {
+  height: 32px;
+  margin-right: 10px;
+}
+.rating {
+  font-family: roboto;
+  font-weight: 600;
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+.star {
+  height: 18px;
+}
+.reviews {
+  font-family: roboto;
+  font-weight: 600;
+  font-size: 16px;
+  color: #475569;
+}
+
+.description {
+  font-family: roboto;
+  font-size: 18px;
+  font-weight: 500;
+  color: #616e7c;
+}
+
+.availability {
+  font-family: roboto;
+  color: #171f46;
+  font-size: 16px;
+  font-weight: 600;
+}
+.availability-res {
+  color: #616e7c;
+  margin-left: 10px;
+}
+
+.brand {
+  font-family: roboto;
+  color: #171f46;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.brand-res {
+  color: #616e7c;
+  margin-left: 10px;
+  font-size: 18px;
+}
+
+.horizontal-line {
+  width: 100%;
+  color: #475569;
+}
+
+.quantity-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 15%;
+}
+
+.quantity-controller-button {
+  height: 22px;
+  background-color: transparent;
+  border: 0;
+  outline: none;
+}
+
+.quantity-controller-icon {
+  height: 20px;
+  width: 20px;
+}
+
+.quantity {
+  font-family: roboto;
+  color: #475569;
+  font-weight: bold;
+}
+
+.add-to-cart-btn {
+  height: 40px;
+  width: 120px;
+  background-color: #3b82f6;
+  border: 0;
+  border-radius: 8px;
+  color: white;
+  font-family: roboto;
+  font-size: 14px;
+  font-weight: 500;
+  margin-top: 10px;
+}
+
+.similar-products-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 48px;
+  margin-top: 40px;
+  width: 80%;
+  padding: 10px;
+}
+
+.similar-products-heading {
+  font-family: roboto;
+  font-weight: bold;
+  color: #475569;
+}
+
+.similar-item-list-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  list-style-type: none;
+  margin-top: 5px;
+}
+
+.product-details-failure-view-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+
+.failure-view-image {
+  width: 300px;
+  height: 165px;
+}
+
+.product-not-found-heading {
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-size: 32px;
+  font-weight: 500;
+  margin-top: 48px;
+}
+.button {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 500;
+  background-color: #3b82f6;
+  border: none;
+  border-radius: 4px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 20px;
+  padding-right: 20px;
+  outline: none;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  .product-details-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .image {
+    min-height: 400px;
+    max-width: 340px;
+  }
+  .product-title {
+    font-size: 28px;
+  }
+  .product-details {
+    flex-direction: column;
+    display: flex;
+  }
+  .similar-products-heading {
+    font-size: 30px;
+  }
+  .description {
+    font-size: 16px;
+  }
+  .add-to-cart-btn {
+    width: 100px;
+    font-size: 12px;
+    height: 36px;
+  }
+  .quantity-controller-button {
+    height: 18px;
+  }
+  .quantity-container {
+    width: 25%;
+  }
+
+  .quantity-controller-icon {
+    height: 16px;
+    width: 16px;
+  }
+  .price {
+    font-size: 18px;
+  }
+}
